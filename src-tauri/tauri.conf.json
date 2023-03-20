@@ -1,10 +1,10 @@
 {
   "build": {
-    "beforeDevCommand": "",
+    "beforeDevCommand": "pnpm dev",
     "beforeBuildCommand": "",
     "devPath": "http://localhost:1420",
     "distDir": "../ui",
-    "withGlobalTauri": true
+    "withGlobalTauri": false
   },
   "package": {
     "productName": "buttons_4ofem",
