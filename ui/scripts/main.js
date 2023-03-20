@@ -1,11 +1,9 @@
-// You have to use this approach based on the way you're developing your project
-// Note that it requires '"withGlobalTauri": true' in tauri.conf.json
-const { invoke } = window.__TAURI__.tauri;
+// const { invoke } = window.__TAURI__.tauri;
 
 // These two approaches require you to use Vite or Webpack, because the whole
 // idea of using "import" is something that's added to Javascript from bundlers
 // and aren't part of the language itself
-//import { invoke }  from '@tauri-app/api'
+import { invoke }  from '@tauri-app/api'
 // import { invoke } from '../../node_modules/@tauri-apps/api'
 
 let greetInputEl;
